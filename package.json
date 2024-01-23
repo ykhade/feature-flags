@@ -1,0 +1,35 @@
+{
+  "name": "feature-flags",
+  "version": "1.0.0",
+  "description": "feature flags back-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ykhade/feature-flags.git"
+  },
+  "keywords": [
+    "feature-flags"
+  ],
+  "author": "Yash Khade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ykhade/feature-flags/issues"
+  },
+  "homepage": "https://github.com/ykhade/feature-flags#readme",
+  "dependencies": {
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.11",
+    "@typescript-eslint/eslint-plugin": "^6.19.1",
+    "@typescript-eslint/parser": "^6.19.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-no-relative-import-paths": "^1.5.3",
+    "eslint-plugin-prettier": "^5.1.3",
+    "hyper-express": "^6.14.10",
+    "prettier": "^3.2.4",
+    "ts-jest": "^29.1.2"
+  }
+}
